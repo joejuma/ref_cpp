@@ -47,8 +47,7 @@ functions when using the respective methods. For example,
 	};
 	
 	TimeSeries<float> mySeries;
-	// Load a JSON string of a dictionary of time-keyed floating 
-point values.
+	// Load a JSON string of a dictionary of time-keyed floating point values.
 	
 	mySeries.fromJSON(json, &convertStringToFloat);
 ```
